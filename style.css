@@ -214,3 +214,29 @@ body {
   background: #818080;
    
 }
+
+
+.spotify-playlist {
+    padding: 20px 40px;
+}
+
+.spotify-playlist h4 {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+
+.spotify-playlist .card {
+    display: flex;
+    gap: 20px;
+
+}
+
+
+.spotify-playlist .card .item {
+    width: 160px;
+    min-width: 140px;
+    background-color: #181818;
+    cursor: pointer;
+}
