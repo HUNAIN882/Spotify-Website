@@ -43,6 +43,12 @@ body {
     padding: 10px 20px;
 }
 
+.sidebar-nav ul li a:hover{
+   color: #fff;
+
+
+}
+
 .sidebar-nav ul li a {
     text-decoration: none;
     color: #b3b3b3;
@@ -110,3 +116,101 @@ body {
     font-weight: 600;
     margin-bottom: 10px;
 } 
+
+.privacy ul li a {
+    text-decoration: none;
+    color: #818080;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 5px;
+}
+
+.privacy ul li a:hover {
+    text-decoration: underline;
+   color: #dbdbdb;
+}
+
+.privacy ul {
+    list-style: none;
+}
+
+.privacy ul li{
+    padding-bottom: 5px;
+}
+
+.privacy {
+    padding: 0 12px;
+    margin-top: 20px;
+}
+
+.eng-btn {
+    padding: 20px 30px;
+}
+
+.eng-btn button{
+    padding: 10px 30px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #ffffff;
+    border: 1px solid #818080;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.eng-btn button:hover{
+   padding: 11px 31px;
+   border: 1px solid #fff;
+}
+
+.main-section {
+    margin-left: 300px;
+    background: #181818;
+}
+
+.main-section .top-nav {
+    padding: 20px 30px; 
+    background: #131212;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-section .top-nav  button {
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+.main-section .top-nav .prev-btn button i{
+    color: #838181;
+    font-size: 22px;
+    margin-right: 20px;
+}
+
+.top-nav .login-btn .sign-up{
+    color: #838181;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 25px;
+}
+
+.top-nav .login-btn .sign-up:hover{
+    color: #fff;
+ 
+}
+
+.top-nav .login-btn .login{
+    color: #242323;
+    font-size: 16px;
+    font-weight: 600;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+
+.top-nav .login-btn .login:hover{
+  background: #818080;
+   
+}
